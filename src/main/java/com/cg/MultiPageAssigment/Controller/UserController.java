@@ -14,7 +14,7 @@ public class UserController {
     }
 
     // Show Page 1 - First Name and Last Name Form
-    @GetMapping("/")
+    @GetMapping("/page1")
     public String showPage1() {
         return "page1";  // it will load page1.html
     }
